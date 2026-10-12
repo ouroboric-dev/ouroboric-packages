@@ -1,0 +1,30 @@
+[build-system]
+requires = ["hatchling>=1.27"]
+build-backend = "hatchling.build"
+
+[project]
+name = "ouroboric"
+version = "0.0.1"
+description = "Identifies the Ouroboric project: open, self-improving software factories."
+readme = "README.md"
+license = "MIT"
+license-files = ["LICENSE"]
+requires-python = ">=3.9"
+authors = [{ name = "Bruno Guilhermo de Barros Valério" }]
+keywords = ["ouroboric", "software-factory", "agents"]
+classifiers = [
+  "Development Status :: 1 - Planning",
+  "Programming Language :: Python :: 3",
+  "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://ouroboric.dev"
+Source = "https://github.com/ouroboric-dev/ouroboric-packages"
+Organisation = "https://github.com/ouroboric-dev"
+
+[project.scripts]
+ouroboric = "ouroboric:main"
+
+[dependency-groups]
+dev = ["pytest>=8"]
