@@ -14,6 +14,10 @@ Official Ouroboric software is published only from the
 npm scope `@ouroboric`, and container images at `ghcr.io/ouroboric-dev`. Anything else using the name,
 including any `ouroboric` crate on crates.io, is not ours.
 
+## Contributing
+
+Run `uvx pre-commit install` once after cloning, so `gitleaks` checks each commit for secrets.
+
 ## Licence
 
 The code is MIT. The name "Ouroboric" and the logos are trademarks and are not covered by the code
