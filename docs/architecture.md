@@ -10,8 +10,8 @@ style: reference
 
 One package with no dependencies and no network access:
 
-| Package | Language | Entry point | Prints |
-|---|---|---|---|
+| Package   | Language    | Entry point                                       | Prints                                     |
+| --------- | ----------- | ------------------------------------------------- | ------------------------------------------ |
 | `python/` | Python 3.9+ | `ouroboric` console script, `python -m ouroboric` | project name, description, website, source |
 
 There is no crates.io package: Ouroboric has no Rust code planned, so the name is not claimed there.
