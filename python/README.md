@@ -3,7 +3,7 @@
 The official PyPI package of the [Ouroboric](https://ouroboric.dev) project, which builds open,
 self-improving software factories. For now it only identifies the project:
 
-```
+```text
 $ pip install ouroboric
 $ ouroboric
 Ouroboric: open, self-improving software factories.
